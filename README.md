@@ -10,22 +10,22 @@ Shading of the polygons can be switched on and off.
 		<td>shaded:</td><td></td>
 	</tr>
 	<tr>
-		<td><img src="default_day_shaded.png" width=200></td>
+		<td><img src="osmand_day_shaded.png" width=200></td>
 		<td><img src="tourenansicht_day_shaded.png" width=200></td>
 	</tr>
 	<tr>
-		<td><img src="default_night_shaded.png" width=200></td>
+		<td><img src="osmand_night_shaded.png" width=200></td>
 		<td><img src="tourenansicht_night_shaded.png" width=200></td>
 	</tr>
 	<tr>
 		<td>not shaded:</td><td></td>
 	</tr>
 	<tr>
-		<td><img src="default_day.png" width=200></td>
+		<td><img src="osmand_day.png" width=200></td>
 		<td><img src="tourenansicht_day.png" width=200></td>
 	</tr>
 	<tr>
-		<td><img src="default_night.png" width=200></td>
+		<td><img src="osmand_night.png" width=200></td>
 		<td><img src="tourenansicht_night.png" width=200></td>
 	</tr>
 </table>
