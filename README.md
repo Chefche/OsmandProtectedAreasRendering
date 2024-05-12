@@ -1,5 +1,6 @@
 Renders objects complying to boundary=protected_area && protect_class=14 as displayed by e.g. ![www.xctrails.org](https://www.xctrails.org/schongebiete/SchongebieteWMSLayer.html).
-Shading of the polygons can be switched on and off.
+
+Shading of the polygons can be switched on or off.
 
 <table>
 	<tr>
