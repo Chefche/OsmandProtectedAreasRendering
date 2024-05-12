@@ -7,7 +7,7 @@ Shading of the polygons can be switched on and off.
 		<th>Tourenansicht</th>
 	</tr>
 	<tr>
-		<td>shaded:</td><td></td>
+		<td colspan="2">shaded:</td><td></td>
 	</tr>
 	<tr>
 		<td><img src="osmand_day_shaded.png" width=200></td>
@@ -18,7 +18,7 @@ Shading of the polygons can be switched on and off.
 		<td><img src="tourenansicht_night_shaded.png" width=200></td>
 	</tr>
 	<tr>
-		<td>not shaded:</td><td></td>
+		<td colspan="2">not shaded:</td><td></td>
 	</tr>
 	<tr>
 		<td><img src="osmand_day.png" width=200></td>
