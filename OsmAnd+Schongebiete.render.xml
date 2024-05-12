@@ -51,26 +51,41 @@
 			<switch noProtectedAreas="true" minzoom="11">
 				<!-- shading is switched off, only borders of protected areas are displayed -->
 				<switch color="$null" color_2="#afffaf00">
+					<apply_if nightMode="true" color_2="#9fffaf00"/>
 					<case tag="boundary" value="protected_area" additional="protect_class=14"/>
-					<apply_if maxzoom="13" strokeWidth_2="2:2" pathEffect_2="12_3"/>
-					<apply_if minzoom="14" strokeWidth_2="3.5:3.5" pathEffect_2="15_6"/>
+					<apply_if maxzoom="13" strokeWidth_2="2:2" pathEffect_2="12_3">
+						<apply_if nightMode="true" strokeWidth_2="1:1"/>
+					</apply_if>
+					<apply_if minzoom="14" strokeWidth_2="3.5:3.5" pathEffect_2="15_6">
+						<apply_if nightMode="true" strokeWidth_2="2.5:2.5"/>
+					</apply_if>
 					<!--apply_if additional="access=no" color_2="#afff0000" shader="quarry3_access_no"-->
 					<apply_if additional="access=no" color_2="#afff0000">
-						<apply_if nightMode="true"/>
+						<apply_if nightMode="true" color_2="#9fff0000"/>
 					</apply_if>
-
-					<apply_if additional="access=yes" color_2="#af00ff00"/>
+					<apply_if additional="access=yes" color_2="#af00ff00">
+						<apply_if nightMode="true" color_2="#9f00ff00"/>
+					</apply_if>
 				</switch>
 			</switch>
 
 			<switch noProtectedAreas="false" minzoom="11">
 				<!-- shading is switched on, protected areas are shaded -->
 				<switch color="#4fffaf00" color_2="#8fffaf00">
+					<apply_if nightMode="true" color="#3fffaf00"/>
 					<case tag="boundary" value="protected_area" additional="protect_class=14"/>
-					<apply_if maxzoom="13" strokeWidth_2="2:2" pathEffect_2="12_3"/>
-					<apply_if minzoom="14" strokeWidth_2="3.5:3.5" pathEffect_2="15_6"/>
-					<apply_if additional="access=no" color="#4fff0000" color_2="#8fff0000"/>
-					<apply_if additional="access=yes" color="#4f00ff00" color_2="#8f00ff00"/>
+					<apply_if maxzoom="13" strokeWidth_2="2:2" pathEffect_2="12_3">
+						<apply_if nightMode="true" strokeWidth_2="1:1"/>
+					</apply_if>
+					<apply_if minzoom="14" strokeWidth_2="3.5:3.5" pathEffect_2="15_6">
+						<apply_if nightMode="true" strokeWidth_2="2.5:2.5"/>
+					</apply_if>
+					<apply_if additional="access=no" color="#4fff0000" color_2="#8fff0000">
+						<apply_if nightMode="true" color="#3fff0000"/>
+					</apply_if>
+					<apply_if additional="access=yes" color="#4f00ff00" color_2="#8f00ff00">
+						<apply_if nightMode="true" color="#3f00ff00"/>
+					</apply_if>
 				</switch>
 			</switch>
 
