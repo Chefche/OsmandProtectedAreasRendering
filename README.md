@@ -4,8 +4,8 @@ Shading of the polygons can be switched on or off.
 
 <table>
 	<tr>
-		<th>![Osmand](OsmAnd+Schongebiete.render.xml)</th>
-		<th>![Tourenansicht](Tourenansicht+Schongebiete.render.xml)</th>
+		<th><a href="OsmAnd+Schongebiete.render.xml">Osmand</a></th>
+		<th><a href="Tourenansicht+Schongebiete.render.xml">Tourenansicht</a></th>
 	</tr>
 	<tr>
 		<td colspan="2">shaded:</td>
