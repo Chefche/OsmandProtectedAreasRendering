@@ -1,5 +1,7 @@
 Renders objects complying to boundary=protected_area && protect_class=14 as displayed by e.g. ![www.xctrails.org](https://www.xctrails.org/schongebiete/SchongebieteWMSLayer.html).
 
+Red if access=no, green if access=yes, else yellow.
+
 Shading of the polygons can be switched on or off.
 
 <table>
